@@ -1,0 +1,131 @@
+nav[class="menu"]{
+  position: fixed;
+  background-color:rgba(0, 0, 0, 1);
+  top: 0;
+  z-index: 2;
+  width: 99%;
+}
+nav[class="menu"] ul {
+  list-style: none;
+  font-size: 1em;
+  margin-bottom: 0em;
+  margin-left: 14em;
+ }
+nav[class="menu"] li {
+  line-height: 4rem;
+  position: relative;
+}
+nav[class="menu"] ul{
+  display: inline-flex;
+}
+nav[class="menu"] li ul{
+  position: absolute;
+  display: inline-flex;
+}
+
+nav[class="menu"] a{
+  text-decoration: none;
+  display: flex;
+  padding: 0 2.5em;
+  color: white;
+  transition: background 0.4s;
+}
+
+nav[class="menu"] a:hover {
+  color: gold;
+  border-bottom: solid 2px white;
+  line-height: 3.9rem;
+}
+
+.icon{
+  margin-left: 50em;
+}
+/*PRIMER MENU*/
+nav[class="menu"] > ul {
+  background-color: none;
+  display: flex;
+  width: 100%
+}
+section{
+  margin-top: 9em;
+}
+h1{
+  color: white;
+  margin-top: 5%;
+  position: relative;
+  text-align: center;
+  border-bottom: yellow 0.6vw solid;
+  margin-right: 36%;
+  margin-left: 40%;
+}
+body{
+  color:black;
+  background-color: black
+}
+#salvador{
+  background-color: white;
+  width: 18em;
+  height: 29em;
+text-align: center;
+  margin-left: 7em;
+}
+#img1{
+  width: 15em;
+}
+#guate{
+  background-color: white;
+  width: 18em;
+  height:30em;
+  text-align: center;
+    margin-left:32.6em;
+  margin-top: -30.4em;
+}
+#img2{
+  width: 15em;
+}
+#departamento{
+  margin-left: -9em;
+  margin-top: 0em;
+}
+#departamentos{
+  margin-left: 9em;
+  margin-top: -15em;
+}
+#honduras{
+  background-color: white;
+  width: 18em;
+  height: 30em;
+  text-align: center;
+  margin-left:58em;
+  margin-top: -31.3em;
+}
+#img3{
+  width: 15em;
+}
+#nicaragua{
+  background-color: white;
+  width: 18em;
+  height: 31em;
+  text-align: center;
+    margin-left:32.7em;
+  margin-top: 3em;
+}
+#img4{
+  width: 15em;
+}
+footer{
+  margin-left: 31em;
+  color:white;
+  height: 1em;
+  margin-top: 2em;
+}
+body{
+  background-color: black;
+  margin: 2em;
+}
+table{
+  text-align: center;
+  color: black;
+  margin-left: 33.5em;
+  margin-top: -13em;
+}
